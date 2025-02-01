@@ -1,0 +1,35 @@
+### Obtener lista de usuarios
+GET https://jsonplaceholder.typicode.com/users
+
+### Obtener un usuario específico
+GET https://jsonplaceholder.typicode.com/users/1
+
+### Obtener lista de publicaciones
+GET https://jsonplaceholder.typicode.com/posts
+
+### Obtener una publicación específica
+GET https://jsonplaceholder.typicode.com/posts/1
+
+### Crear una nueva publicación
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "Nuevo post",
+  "body": "Este es el contenido del post",
+  "userId": 1
+}
+
+### Actualizar una publicación existente
+PUT https://jsonplaceholder.typicode.com/posts/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "Título actualizado",
+    "body": "Este es el contenido actualizado del post",
+    "userId": 1
+}
+
+### Eliminar una publicación
+DELETE https://jsonplaceholder.typicode.com/posts/1
