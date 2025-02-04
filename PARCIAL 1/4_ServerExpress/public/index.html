@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Hola, mundo!</h1>
+    
+    <script>
+        fetch("http://localhost:300").then(async (res)=>{
+            alert(await res.text())
+        })
+    </script>
 </body>
 </html>
