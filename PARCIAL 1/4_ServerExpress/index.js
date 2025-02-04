@@ -1,7 +1,8 @@
 import express from 'express'
 import cors from 'cors';
 import { config } from 'dotenv';
-import path from 'path'
+import path from 'node:path'
+import process from "node:process";
 
 config({ path: "./config/.env" });
 
@@ -12,10 +13,10 @@ app.use(cors({
     methods: ["GET", "POST"]
 }));
 
-app.get('/inicio', (req, res) => {
+app.get('/inicio', (_req, res) => {
     res.sendFile(path.resolve('./public/index.html'));
 });
 
-app.listen(process.env.SERVER_PORT, (req, res) => {
+app.listen(process.env.SERVER_PORT, () => {
     console.log(`Servidor corriendo en el puerto ${ process.env.SERVER_PORT }`);
 })
