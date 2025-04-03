@@ -1,0 +1,6 @@
+{"endpoint":"GET Clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-03-11T14:26:38.428Z"}
+{"endpoint":"/clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-03-11T14:27:58.487Z"}{"endpoint":"/saludo","level":"error","message":"saludo is not defined","status":500,"timestamp":"2025-03-12T14:35:41.346Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:24.056Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:25.449Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:26.199Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:44.822Z"}

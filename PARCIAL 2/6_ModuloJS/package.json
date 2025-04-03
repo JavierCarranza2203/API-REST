@@ -1,0 +1,21 @@
+{
+  "name": "6_modulojs",
+  "version": "1.0.0",
+  "description": "Exportacion de modulos JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "doc": "jsdoc -c ./jsdoc.json --readme ./readme.md"
+  },
+  "author": "Javier Carranza",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "clean-jsdoc-theme": "^4.3.0",
+    "jsdoc": "^4.0.4"
+  },
+  "devDependencies": {
+    "docdash": "^2.0.2",
+    "minami": "^1.2.3"
+  }
+}
