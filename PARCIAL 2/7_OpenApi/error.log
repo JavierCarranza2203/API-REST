@@ -1,0 +1,12 @@
+{"endpoint":"GET Clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-03-11T14:26:38.428Z"}
+{"endpoint":"/clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-03-11T14:27:58.487Z"}{"endpoint":"/saludo","level":"error","message":"saludo is not defined","status":500,"timestamp":"2025-03-12T14:35:41.346Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:24.056Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:25.449Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:26.199Z"}
+{"endpoint":"/saludo","level":"error","message":"The \"paths[0]\" argument must be of type string. Received an instance of Object","status":500,"timestamp":"2025-03-12T14:37:44.822Z"}
+{"endpoint":"GET Clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-04-10T14:23:14.523Z"}
+{"endpoint":"GET Clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-04-10T14:25:44.484Z"}
+{"endpoint":"GET Clientes","level":"error","message":"Error en el GET","status":404,"timestamp":"2025-04-28T14:14:11.745Z"}
+{"endpoint":"/clientes?nombre=javier&edad=22&telefono=8670000000","level":"error","message":"Error interno del servidor","status":500,"timestamp":"2025-04-28T14:15:17.433Z"}
+{"endpoint":"/clientes","level":"error","message":{"code":"ER_BAD_NULL_ERROR","errno":1048,"message":"Column 'nombre' cannot be null","sql":"INSERT INTO Clientes (nombre, telefono, edad) VALUES(NULL, NULL, NULL)","sqlMessage":"Column 'nombre' cannot be null","sqlState":"23000"},"status":500,"timestamp":"2025-04-28T14:18:41.969Z"}
+{"endpoint":"/clientes","level":"error","message":{"code":"ER_BAD_NULL_ERROR","errno":1048,"message":"Column 'nombre' cannot be null","sql":"INSERT INTO Clientes (nombre, telefono, edad) VALUES(NULL, NULL, NULL)","sqlMessage":"Column 'nombre' cannot be null","sqlState":"23000"},"status":500,"timestamp":"2025-04-28T14:20:32.986Z"}
